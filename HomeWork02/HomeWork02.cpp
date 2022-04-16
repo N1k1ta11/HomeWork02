@@ -128,7 +128,7 @@ int main()
 {
 	ifstream file("Война и мир.txt");
 	Task3(file);
-	/*vector<int*>arr;
+	vector<int*>arr;
 	for (int i = 0; i < 10; i++)
 	{
 		int* t = new int(rand() % 10);
@@ -136,5 +136,5 @@ int main()
 	}
 	print(arr);
 	SortPointers(arr);
-	print(arr);*/
+	print(arr);
 }
