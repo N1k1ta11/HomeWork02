@@ -137,4 +137,9 @@ int main()
 	print(arr);
 	SortPointers(arr);
 	print(arr);
+
+	for (auto i : arr)
+	{
+		delete i;
+	}
 }
